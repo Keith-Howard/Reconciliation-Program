@@ -68,7 +68,7 @@ def reconcile_holdings(cursor, custodian_holdings):
     print('Total Holdings exposure = $' + total_exposure_format.format(round(total_holdings_exposure, 2)))
 
 
-holdings_csv_path = r'C:\Users\Keith\OneDrive\Documents\Python_Data\Holdings.csv'
+holdings_csv_path = r'input/Holdings.csv'
 connection = pyodbc.connect('Driver={SQL Server Native Client 11.0};'
                             'Server=DESKTOP-IQBNFKO;'
                             'Database=Keith_Test;'
